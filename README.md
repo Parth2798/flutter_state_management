@@ -1,2 +1,10 @@
 # flutter_state_management
-Getx StateMixin and Custom State - API
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+- GetX
+- Get_It
+- Dio
+- Retrofit

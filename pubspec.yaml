@@ -1,0 +1,54 @@
+name: flutter_state_management
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.0-58.0.dev <3.0.0'
+
+dependencies: 
+  cupertino_icons:
+  intl:
+  flutter_spinkit:
+  simple_animations:
+  get:
+  get_it:
+  get_storage:
+  equatable:
+  dio:
+  dio_http_formatter:
+  logger:
+  retrofit:
+  built_value:
+  json_annotation: ^4.0.0
+  gson:
+  flutter:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints:
+  retrofit_generator:
+  build_runner: ^2.0.1
+  json_serializable: ^4.0.3
+  built_value_generator:
+  flutter_test:
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
